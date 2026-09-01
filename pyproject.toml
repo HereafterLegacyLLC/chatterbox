@@ -16,9 +16,9 @@ dependencies = [
     "s3tokenizer",
     # torch 2.6.0 supports Python 3.10-3.13; Python 3.14 needs 2.9.0+
     "torch==2.6.0; python_version < '3.14'",
-    "torch>=2.9.0,<2.11; python_version >= '3.14'",
+    "torch>=2.9.0,<2.10; python_version >= '3.14'",
     "torchaudio==2.6.0; python_version < '3.14'",
-    "torchaudio>=2.9.0,<2.11; python_version >= '3.14'",
+    "torchaudio>=2.9.0,<2.10; python_version >= '3.14'",
     "transformers>=5.5",
     "diffusers==0.29.0",
     "resemble-perth @ git+https://github.com/resemble-ai/Perth.git@master",
